@@ -3,7 +3,7 @@
 
 <tiles-definitions>
 	<!-- main layout -->
-	<definition name= "layout-tiles" template = "/WEB-INF/views/tiles/tiles-layout.jsp">
+	<definition name= "layout-tiles" template = "/WEB-INF/views/management/{1}/{2}.jsp">
 		<put-attribute name="header" value="/WEB-INF/views/tiles/headerTemplate.jsp"/>
 		<put-attribute name="left" value="/WEB-INF/views/tiles/sidebarTemplate.jsp"/>
 		<put-attribute name="body" value=""/>
@@ -11,7 +11,7 @@
 	</definition>
 	
 	<definition name="*/*" extends="layout-tiles">
-		<put-attribute name="body" value="/WEB-INF/views/{1}/{2}.jsp"/>
+		<put-attribute name="body" value="/WEB-INF/views/management/{1}/{2}.jsp"/>
 		<put-attribute name="title" value="출장관리시스템 관리자"/>
 	</definition>
 </tiles-definitions>

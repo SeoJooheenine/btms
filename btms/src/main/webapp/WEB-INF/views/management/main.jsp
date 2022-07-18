@@ -7,8 +7,5 @@
 <title></title>
 </head>
 <body>
-	<div>
-		<h2>¾È³ç</h2>
-	</div>
 </body>
 </html>
