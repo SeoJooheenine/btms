@@ -8,14 +8,8 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class manageRootController {
 	
-	@RequestMapping({"/",""})
+	@RequestMapping({"/main","/"})
 	public String index() {
 		return "/management/main";
-	}
-	
-	@RequestMapping("/tiles/main")
-	public String main() {
-		System.out.println("어떻게 되는거야");
-		return "tiles/main";
 	}
 }
