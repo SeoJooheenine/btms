@@ -8,6 +8,7 @@
 		<put-attribute name="left" value="/WEB-INF/views/tiles/sidebarTemplate.jsp"/>
 		<put-attribute name="body" value=""/>
 		<put-attribute name="foot" value="/WEB-INF/views/tiles/footerTemplate.jsp"/>
+<!-- 		<put-attribute name="css" value="/webapp/resources/css/common.css"/> -->
 	</definition>
 	<definition name="/management/*" extends="layout-tiles">
 		<put-attribute name="body" value="/WEB-INF/views/management/{1}.jsp"/>

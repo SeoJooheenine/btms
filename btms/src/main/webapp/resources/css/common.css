@@ -13,13 +13,10 @@
 	float: left;
 }
 
-.Header, .Footer{
-	height: 8em;
-}
 
 .SideBar{
 	width: 10%;
-	height: 600px;
+	height: 100%;
 	background-color: #FFBB00;
 	float: left;
 }
@@ -32,9 +29,13 @@
 }
 
 .Header{
+	height:3em;
 	background-color: #ABF200;
 }
 
 .Footer{
+	height: 10em;
+  	position : relative;
+  	transform : translateY(-100%);
 	background-color: #FF00DD;
 }
