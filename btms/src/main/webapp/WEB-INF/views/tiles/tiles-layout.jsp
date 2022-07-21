@@ -23,12 +23,10 @@
   <body>
   	<div class='wrap'>
   		<tiles:insertAttribute name="header" />
-		  <div class='content'>  	
   			<tiles:insertAttribute name="left"/>
 	  		<div class="page_content">
 	  			<tiles:insertAttribute name="body"/>
 	  		</div>
-  		</div>
   		<tiles:insertAttribute name="foot" />
   	</div>
   </body>
